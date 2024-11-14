@@ -1,0 +1,12 @@
+{
+    "extends": "@rocketseat/eslint-config/react",
+    "overrides": [
+      {
+        "files": ["src/**/*.{ts,tsx}"],
+        "parserOptions": {
+          "project": "./tsconfig.json"
+        }
+      }
+    ]
+  }
+  
